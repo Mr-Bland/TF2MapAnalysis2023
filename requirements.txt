@@ -42,7 +42,6 @@ inotify==0.2.10
 ipykernel==6.29.4
 ipython==8.24.0
 ipywidgets==8.1.2
-jnius==1.1.0
 js==1.0
 keyring==25.2.0
 lxml_html_clean==0.1.1
