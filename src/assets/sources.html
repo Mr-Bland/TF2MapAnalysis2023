@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TF2 Map Analysis</title>
+	<link rel="stylesheet" href="custom.css">
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+
+	<div class="headerBanner">
+		<img class="headerLogo" src="TF2Logo.png">
+		<p></p>
+		<a href="">Charts</a>
+		<a href="findings.html">Findings Overview</a>
+		<a href="sources.html">Sources</a>
+	</div>
+	<div class="pageBody">
+		<h1>Data Sources</h1>
+		<h3>Map List Tables</h3>
+		<p>TF2 Wiki</p>
+		<ul class="normalText">
+			<li>Basic map information was taken from the following sources</li>
+			<ul>
+				<li><a href="https://wiki.teamfortress.com/wiki/List_of_maps">https://wiki.teamfortress.com/wiki/List_of_maps</a></li>
+				<li><a href="https://wiki.teamfortress.com/wiki/Christmas_map">https://wiki.teamfortress.com/wiki/Christmas_map</a></li>
+				<li><a href="https://wiki.teamfortress.com/wiki/Halloween_map">https://wiki.teamfortress.com/wiki/Halloween_map</a></li>
+				<li><a href="https://wiki.teamfortress.com/wiki/Water">https://wiki.teamfortress.com/wiki/Water</a></li>
+			</ul>
+			<li>Information was condensed into a single Excel file (that way I can properly map size values with them)</li>
+			<li>Did opt to use web scraping to ensure as few spelling mistakes and typos as possible</li>
+			<li>While the water map list was not used in final results, still including it for documentation</li>
+			<p>You can use the following link to download the Excel file this data was collected onto</p>
+			<a href="TF2MapData.xlsx" download><img src="xlsx_icon.svg.png" width="20" height="20"/>TF2MapData.xlsx</a>
+		</ul>
+		<br/><br/>
+		<h3>Map Size Gathering Method</h3>
+		<p>Uncle Dane</p>
+		<ul class="normalText">
+			<li><a href="https://www.youtube.com/watch?v=I9ieN1ACfP4">https://www.youtube.com/watch?v=I9ieN1ACfP4</a></li>
+			<li>Description mentions that conversion method from hammer units to kilometers was incorrect, linked pastebin with correct values</li>
+			<li>If anyone wants to see these values in game, I would recommend using the command "nav_flood_select" to ensure that the nav mesh is both generated, and is selecting the whole map</li>
+		</ul>
+		<br/><br/>	
+		<h3>Hammer Units To Kilometers Conversion Method</h3>
+		<ul class="normalText">
+			<li>Initial research lead to no single way to convert hammer units to normal measurements, sizes can apparently vary from game to game</li>
+			<li>Opted to use the following pastebin link mentioned in the description of Uncle Dane's video on map sizes</li>
+			<ul><li><a href="https://pastebin.com/rwXevdPs">https://pastebin.com/rwXevdPs</a></li></ul>
+			<li>Pastebin file only shows the before and after conversion numbers, does not show conversion method.</li>
+			<li>Deduced that the conversion method is the following (May be incorrect, will need to do additional research to verify this):</li>
+			<ul><li>Hu^2 / 27.5926 = km^2</li></ul>
+		</ul>
+	</div>
+
+	<!-- Here begins JavaScript -->
+	<script>
+	</script>
+	<!-- Here ends JavaScript -->
+</body>
+</html>

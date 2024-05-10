@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'TF2'; 
+    src: url('tf2.ttf');
+}
+body {
+    font-family: "TF2";
+	background-color: #1f1f1f;
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+	margin: 0;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+.normalText {
+	font-family: "Serif";
+}
+.headerBanner {
+	text-align: center;
+	color: white;
+	padding: 10px;
+	background-color: #333333;	
+	overflow: hidden;
+}
+
+.headerBanner a {
+	# color: white;
+	# margin: 10px;
+	# text-decoration: none;
+	# display: flex;
+}
+
+.headerLinksParent {
+	display: inline-flex;
+}
+
+.headerLink {
+	# flex: 1;
+	margin-left: 10px;
+}
+
+.pageBody {
+	padding: 20px;
+}
+
+.mapCountStats {
+	text-align: center;
+}
+
+.dash-dropdown {
+	# width: 15%;
+	background-color: #333333;	
+}
+
+.dash-graph {
+	width: 80%;
+	padding-left: 10px;
+}
+
+.ChartCombiner {
+	# display: grid;
+	# grid-template-columns: 1fr 1fr;
+	display: flex;	
+	align-items: center;
+}
+
+.DropDownContainer {
+	width: 15%;
+	# background-color: green;
+	margin: 0;
+	padding: 0;
+}
+
+.headerLogo {
+	height: 150px;
+	width: 150px;
+}
+
+.Select-control {
+    color: black;
+  }
+  
+.Select-menu-outer {
+    color: black;
+}
+
+.Select-value-label {
+    color: black !important;
+}
