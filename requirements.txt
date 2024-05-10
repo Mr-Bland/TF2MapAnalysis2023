@@ -61,7 +61,6 @@ Pillow==10.3.0
 protobuf==5.26.1
 psutil==5.9.8
 PyInstaller==6.6.0
-pyodide==0.0.2
 pyOpenSSL==24.1.0
 PyQt4==4.11.4
 PyQt5==5.15.10
