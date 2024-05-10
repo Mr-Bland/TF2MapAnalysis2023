@@ -45,7 +45,7 @@ ipywidgets==8.1.2
 js==1.0
 keyring==25.2.0
 lxml_html_clean==0.1.1
-matplotlib==3.8.4
+matplotlib
 mock==5.1.0
 mtrand==0.1
 multiprocess==0.70.16
