@@ -27,19 +27,11 @@ a {
 	overflow: hidden;
 }
 
-.headerBanner a {
-	# color: white;
-	# margin: 10px;
-	# text-decoration: none;
-	# display: flex;
-}
-
 .headerLinksParent {
 	display: inline-flex;
 }
 
 .headerLink {
-	# flex: 1;
 	margin-left: 10px;
 }
 
@@ -52,7 +44,6 @@ a {
 }
 
 .dash-dropdown {
-	# width: 15%;
 	background-color: #333333;	
 }
 
@@ -62,15 +53,12 @@ a {
 }
 
 .ChartCombiner {
-	# display: grid;
-	# grid-template-columns: 1fr 1fr;
 	display: flex;	
 	align-items: center;
 }
 
 .DropDownContainer {
 	width: 15%;
-	# background-color: green;
 	margin: 0;
 	padding: 0;
 }
