@@ -22,7 +22,7 @@ pd.set_option('display.max_rows', 3000)
 pd.set_option('display.max_columns', 3000)
 
 # Import Excel sheet into dataframe, separating each sheet into its own frame
-excelFile = pd.ExcelFile(r"dataSource\TF2MapData.xlsx")
+excelFile = pd.ExcelFile(r"dataSource/TF2MapData.xlsx")
 origData = pd.read_excel(excelFile, "MainMapData")
 waterData = pd.read_excel(excelFile, "WaterMapData")
 eventData = pd.read_excel(excelFile, "EventMapList")
