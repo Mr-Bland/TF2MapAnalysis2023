@@ -4,7 +4,6 @@ adbc_driver_sqlite==0.11.0
 AppKit==0.2.8
 argcomplete==3.3.0
 asgiref==3.8.1
-BeautifulSoup==3.2.0
 boto3==1.34.102
 botocore==1.34.102
 brotli==1.1.0
